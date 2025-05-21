@@ -18,7 +18,7 @@ namespace game
 {
     public partial class Form1 : Form
     {
-        static IPAddress ip = IPAddress.Parse("192.168.12.169");
+        static IPAddress ip = IPAddress.Parse("127.0.0.1");
         static IPEndPoint remoteEP = new IPEndPoint(ip, 53311);
         Socket toSrvSocket;
         byte[] buffer = new byte[1024];
